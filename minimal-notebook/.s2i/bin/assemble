@@ -146,6 +146,18 @@ jupyter nbextension install --sys-prefix https://raw.githubusercontent.com/vpavl
 
 jupyter nbextension enable --sys-prefix publish
 
+######################
+# Conda installation #
+######################
+
+echo " -----> Installing conda distribution."
+
+curl -o conda-installer.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+
+bash conda-installer.sh -b -p /opt/app-root/anaconda3
+
+rm -rf conda-installer.sh
+
 ########################################################################
 # WARNING: Don't do anything beyond this point that relies on Python.
 ########################################################################

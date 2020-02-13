@@ -38,7 +38,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/vpavlin/jupyter-notebooks"
+                        "uri": "https://github.com/rimolive/jupyter-notebooks"
                     },
                     "contextDir": "minimal-notebook"
                 },
